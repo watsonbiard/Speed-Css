@@ -45,14 +45,15 @@ body {
    text-decoration: underline;
 }
 /* text align */
-.tc{
-   text-align: center;
+.pc{
+   float: initial;
+   margin: auto;
 }
-.tl{
-   text-align: left;
+.pl{
+   float: left;
 }
-.tr{
-   text-align: right;
+.pr{
+   float: right;
 }
 /* text transformation */
 .t-u{
@@ -91,19 +92,22 @@ body {
 .verdana{
    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+.gigi{
+   font-family: Gigi Regular, sans-serif;
+}
 /* set width */
-.w-2{
- width: 2px;
-   }.w-4{
-         width: 4px;
-      }.w-6{
-            width: 6px;
-         }.w-8{
-               width: 8px;
-            }.w-10{
-                  width:10px;
-               }.w-12{
-                     width: 12px;
+.bw-2{
+ border-width: 2px;
+   }.bw-4{
+         border-width: 4px;
+      }.bw-6{
+            border-width: 6px;
+         }.bw-8{
+              border-width: 8px;
+            }.bw-10{
+                 border-width:10px;
+               }.bw-12{
+                     border-width: 50px;
                   }
 
 
