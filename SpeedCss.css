@@ -65,7 +65,44 @@ body {
    text-transform: capitalize;
 }
 
+/* Font  */
 
+.serif{
+   font-family: serif;
+}
+.times{
+   font-family: 'Times New Roman', Times, serif;
+}
+.courier{
+   font-family: 'Courier New', Courier, monospace;
+}
+.sans-serif{
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.arial{
+   font-family: Arial, Helvetica, sans-serif;
+}
+.impact{
+   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.fantasy{
+   font-family: fantasy;
+}
+.verdana{
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* .......border.......... */
+.dot {border-style: dotted;}
+.das {border-style: dashed;}
+.sol {border-style: solid;}
+.dou {border-style: double;}
+.gro {border-style: groove;}
+.rid {border-style: ridge;}
+.ins {border-style: inset;}
+.out {border-style: outset;}
+.hidden {border-style: hidden;}
+.mix {border-style: dotted dashed solid double;}
 
 /* ..............Color css .............*/
 .aliceblue {
