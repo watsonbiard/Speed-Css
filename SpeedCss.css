@@ -44,17 +44,7 @@ body {
 .u{
    text-decoration: underline;
 }
-/* text align */
-.pc{
-   float: initial;
-   margin: auto;
-}
-.pl{
-   float: left;
-}
-.pr{
-   float: right;
-}
+
 /* text transformation */
 .t-u{
    text-transform: uppercase;
