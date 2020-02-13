@@ -101,7 +101,7 @@ body {
 .rid {border-style: ridge;}
 .ins {border-style: inset;}
 .out {border-style: outset;}
-.hidden {border-style: hidden;}
+.hid {border-style: hidden;}
 .mix {border-style: dotted dashed solid double;}
 
 /* ..............Color css .............*/
