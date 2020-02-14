@@ -64,11 +64,48 @@ body {
 .times{
    font-family: 'Times New Roman', Times, serif;
 }
+
+                        /* Monospace Fonts */
 .courier{
    font-family: 'Courier New', Courier, monospace;
 }
+.liberation{
+   font-family: "Liberation Mono", "Nimbus Mono L", "FreeMono", "DejaVu Mono", "Bitstream Vera Mono", "Lucida Console", "Andale Mono", "Courier New", monospace;font-family: "Liberation Mono", "Nimbus Mono L", "FreeMono", "DejaVu Mono", "Bitstream Vera Mono", "Lucida Console", "Andale Mono", "Courier New", monospace;
+}
+.nimbus{
+   font-family: "Nimbus Mono L", "FreeMono", "DejaVu Mono", "Bitstream Vera Mono", "Lucida Console", "Andale Mono", "Courier New", monospace;
+}
+.FreeMono{
+   font-family: "FreeMono", "DejaVu Mono", "Bitstream Vera Mono", "Lucida Console", "Andale Mono", "Courier New", monospace;
+}
+.dejaVu{
+   font-family: "DejaVu Mono", "Bitstream Vera Mono", "Lucida Console", "Andale Mono", "Courier New", monospace;
+}
+.bitstream{
+   font-family: "Bitstream Vera Mono", "Lucida Console", "Andale Mono", "Courier New", monospace;
+}
+.lucida{
+   font-family: "Lucida Console", "Andale Mono", "Courier New", monospace;
+}
+.andale{
+   font-family: "Andale Mono", "Courier New", monospace;
+}
+
+                     /* sans Serif Fonts */
 .sans-serif{
    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.liberation{
+   font-family: "Liberation Sans", "Nimbus Sans L", "FreeSans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.nimbus{
+   font-family:"Nimbus Sans L", "FreeSans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.freesans{
+   font-family: "FreeSans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.helvetica{
+   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 .arial{
    font-family: Arial, Helvetica, sans-serif;
@@ -85,6 +122,15 @@ body {
 .gigi{
    font-family: Gigi Regular, sans-serif;
 }
+
+.comic{
+font-family: Comic Sans MS;
+}
+
+
+
+
+
 /* set width */
 .bw-2{
  border-width: 2px;
