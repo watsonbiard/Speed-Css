@@ -91,7 +91,7 @@ body {
   font-family: "FreeMono", "DejaVu Mono", "Bitstream Vera Mono",
     "Lucida Console", "Andale Mono", "Courier New", monospace;
 }
-.dejaVu {
+.dejavu {
   font-family: "DejaVu Mono", "Bitstream Vera Mono", "Lucida Console",
     "Andale Mono", "Courier New", monospace;
 }
@@ -111,11 +111,11 @@ body {
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
-.liberation {
+.liberationsans {
   font-family: "Liberation Sans", "Nimbus Sans L", "FreeSans", "Helvetica Neue",
     Helvetica, Arial, sans-serif;
 }
-.nimbus {
+.nimbussans {
   font-family: "Nimbus Sans L", "FreeSans", "Helvetica Neue", Helvetica, Arial,
     sans-serif;
 }
@@ -144,7 +144,11 @@ body {
 .comic {
   font-family: Comic Sans MS;
 }
+
+
 /* Set the width in percent */
+
+
 .w-10{
   width: 10%;
 }
