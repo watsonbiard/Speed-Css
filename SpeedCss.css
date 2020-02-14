@@ -9,1419 +9,1494 @@ License: MIT,
 .
 */
 
+
 body {
-   margin: 0;
+  margin: 0;
 }
+/* width height set */
+   .wd{
+      width: var(--width-size);
+   }
+
+
+
+/* button create */
 
 .btn {
-   border: none;
-   padding: 14px 28px;
-   color: white;
-   cursor: pointer;
+  border: none;
+  padding: 14px 28px;
+  color: white;
+  cursor: pointer;
 }
 
 .s {
-   background-color: #4caf50;
+  background-color: #4caf50;
 }
 .w {
-   background-color: #ff9800;
+  background-color: #ff9800;
 }
 
 .d {
-   background-color: #f44336;
+  background-color: #f44336;
 }
 
 /* ...........Text style...... */
-.b{
-   font-weight: bold;
+.b {
+  font-weight: bold;
 }
-.i{
-   font-style: italic;
+.i {
+  font-style: italic;
 }
-.ms{
-   text-decoration: line-through;
+.ms {
+  text-decoration: line-through;
 }
-.u{
-   text-decoration: underline;
+.u {
+  text-decoration: underline;
 }
 
 /* text transformation */
-.t-u{
-   text-transform: uppercase;
+.t-u {
+  text-transform: uppercase;
 }
-.t-l{
-   text-transform: lowercase;
+.t-l {
+  text-transform: lowercase;
 }
-.t-c{
-   text-transform: capitalize;
+.t-c {
+  text-transform: capitalize;
 }
 
 /* Font  */
 
-.serif{
-   font-family: serif;
+.serif {
+  font-family: serif;
 }
-.times{
-   font-family: 'Times New Roman', Times, serif;
-}
-
-                        /* Monospace Fonts */
-.courier{
-   font-family: 'Courier New', Courier, monospace;
-}
-.liberation{
-   font-family: "Liberation Mono", "Nimbus Mono L", "FreeMono", "DejaVu Mono", "Bitstream Vera Mono", "Lucida Console", "Andale Mono", "Courier New", monospace;font-family: "Liberation Mono", "Nimbus Mono L", "FreeMono", "DejaVu Mono", "Bitstream Vera Mono", "Lucida Console", "Andale Mono", "Courier New", monospace;
-}
-.nimbus{
-   font-family: "Nimbus Mono L", "FreeMono", "DejaVu Mono", "Bitstream Vera Mono", "Lucida Console", "Andale Mono", "Courier New", monospace;
-}
-.freemono{
-   font-family: "FreeMono", "DejaVu Mono", "Bitstream Vera Mono", "Lucida Console", "Andale Mono", "Courier New", monospace;
-}
-.dejaVu{
-   font-family: "DejaVu Mono", "Bitstream Vera Mono", "Lucida Console", "Andale Mono", "Courier New", monospace;
-}
-.bitstream{
-   font-family: "Bitstream Vera Mono", "Lucida Console", "Andale Mono", "Courier New", monospace;
-}
-.lucida{
-   font-family: "Lucida Console", "Andale Mono", "Courier New", monospace;
-}
-.andale{
-   font-family: "Andale Mono", "Courier New", monospace;
+.times {
+  font-family: "Times New Roman", Times, serif;
 }
 
-                     /* sans Serif Fonts */
-.sans-serif{
-   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+/* Monospace Fonts */
+.courier {
+  font-family: "Courier New", Courier, monospace;
 }
-.liberation{
-   font-family: "Liberation Sans", "Nimbus Sans L", "FreeSans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+.liberation {
+  font-family: "Liberation Mono", "Nimbus Mono L", "FreeMono", "DejaVu Mono",
+    "Bitstream Vera Mono", "Lucida Console", "Andale Mono", "Courier New",
+    monospace;
+  font-family: "Liberation Mono", "Nimbus Mono L", "FreeMono", "DejaVu Mono",
+    "Bitstream Vera Mono", "Lucida Console", "Andale Mono", "Courier New",
+    monospace;
 }
-.nimbus{
-   font-family:"Nimbus Sans L", "FreeSans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+.nimbus {
+  font-family: "Nimbus Mono L", "FreeMono", "DejaVu Mono", "Bitstream Vera Mono",
+    "Lucida Console", "Andale Mono", "Courier New", monospace;
 }
-.freesans{
-   font-family: "FreeSans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+.freemono {
+  font-family: "FreeMono", "DejaVu Mono", "Bitstream Vera Mono",
+    "Lucida Console", "Andale Mono", "Courier New", monospace;
 }
-.helvetica{
-   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+.dejaVu {
+  font-family: "DejaVu Mono", "Bitstream Vera Mono", "Lucida Console",
+    "Andale Mono", "Courier New", monospace;
 }
-.arial{
-   font-family: Arial, Helvetica, sans-serif;
+.bitstream {
+  font-family: "Bitstream Vera Mono", "Lucida Console", "Andale Mono",
+    "Courier New", monospace;
 }
-.impact{
-   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+.lucida {
+  font-family: "Lucida Console", "Andale Mono", "Courier New", monospace;
 }
-.fantasy{
-   font-family: fantasy;
-}
-.verdana{
-   font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-.gigi{
-   font-family: Gigi Regular, sans-serif;
+.andale {
+  font-family: "Andale Mono", "Courier New", monospace;
 }
 
-.comic{
-font-family: Comic Sans MS;
+/* sans Serif Fonts */
+.sans-serif {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+.liberation {
+  font-family: "Liberation Sans", "Nimbus Sans L", "FreeSans", "Helvetica Neue",
+    Helvetica, Arial, sans-serif;
+}
+.nimbus {
+  font-family: "Nimbus Sans L", "FreeSans", "Helvetica Neue", Helvetica, Arial,
+    sans-serif;
+}
+.freesans {
+  font-family: "FreeSans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.helvetica {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.arial {
+  font-family: Arial, Helvetica, sans-serif;
+}
+.impact {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+.fantasy {
+  font-family: fantasy;
+}
+.verdana {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.gigi {
+  font-family: Gigi Regular, sans-serif;
 }
 
+.comic {
+  font-family: Comic Sans MS;
+}
+/* Set the width in percent */
+.w-10{
+  width: 10%;
+}
+.w-20 {
+  width: 20%;
+}
+.w-30 {
+  width: 30%;
+}
+.w-40 {
+  width: 40%;
+}
+.w-50 {
+  width: 50%;
+}
+.w-60 {
+  width: 60%;
+}
+.w-70{
+  width: 70%;
+}
+.w-80{
+  width: 80%;
+}
+.w-90 {
+  width: 90%;
+}
+.w-100 {
+  width: 100%;
+}
+/* set the height in percent */
 
-
-
+.h-10{
+  height: 10%;
+}
+.h-20 {
+  height: 20%;
+}
+.h-30 {
+  height: 30%;
+}
+.h-40 {
+  height: 40%;
+}
+.h-50 {
+  height: 50%;
+}
+.h-60 {
+  height: 60%;
+}
+.h-70{
+  height: 70%;
+}
+.h-80{
+  height: 80%;
+}
+.h-90 {
+  height: 90%;
+}
+.h-100 {
+  height: 100%;}
 
 /* set border-width */
-#bw-1{
-   
-   border-width:none;
-     }
-#bw-2{
- border-width: 2px;
-   }#bw-3{
-         border-width: 3px;
-      }#bw-4{
-            border-width: 4px;
-         }#bw-5{
-            border-width: 5px;
-            }#bw-6{
-                 border-width:6px;
-               }#bw-7{
-                     border-width: 7px;
-                  }#bw-8{
-                     border-width: 8px;
-                       }#bw-9{
-                             border-width: 9px;
-                          }#bw-10{
-                                border-width: 10px;
-                             }#bw-11{
-                                 border-width: 11px;
-                                }#bw-12{
-                                     border-width:12px;
-                                   }#bw-13{
-                                         border-width: 13px;
-                                      }#bw-14{
-                                       border-width: 14px;
-                                          }#bw-15{
-                                             border-width: 15px;
-                                             }#bw-16{
-                                                   border-width: 16px;
-                                                }#bw-17{
-                                                      border-width: 17px;
-                                                   }#bw-18{
-                                                         border-width: 18px;
-                                                      }#bw-19{
-                                                            border-width:19px;
-                                                         }#bw-20{
-                                                               border-width: 20px;
-                                                            }
-                    
 
+#bw-0 {
+   border-width: 0px;
+ }
+#bw-1 {
+  border-width: 1px;
+}
+#bw-2 {
+  border-width: 2px;
+}
+#bw-3 {
+  border-width: 3px;
+}
+#bw-4 {
+  border-width: 4px;
+}
+#bw-5 {
+  border-width: 5px;
+}
+#bw-6 {
+  border-width: 6px;
+}
+#bw-7 {
+  border-width: 7px;
+}
+#bw-8 {
+  border-width: 8px;
+}
+#bw-9 {
+  border-width: 9px;
+}
+#bw-10 {
+  border-width: 10px;
+}
+#bw-11 {
+  border-width: 11px;
+}
+#bw-12 {
+  border-width: 12px;
+}
+#bw-13 {
+  border-width: 13px;
+}
+#bw-14 {
+  border-width: 14px;
+}
+#bw-15 {
+  border-width: 15px;
+}
+#bw-16 {
+  border-width: 16px;
+}
+#bw-17 {
+  border-width: 17px;
+}
+#bw-18 {
+  border-width: 18px;
+}
+#bw-19 {
+  border-width: 19px;
+}
+#bw-20 {
+  border-width: 20px;
+}
+        /*     ......set width......  */
 
-
-                                                            .w-1{
-                                                               border-width: 1px;
-                                                               }.w-2{
-                                                        border-width: 2px;
-                                                          }.w-3{
-                                                                border-width: 3px;
-                                                             }.w-4{
-                                                                   border-width: 4px;
-                                                                }.w-5{
-                                                                   border-width: 5px;
-                                                                   }.w-6{
-                                                                        border-width:6px;
-                                                                      }.w-7{
-                                                                            border-width: 7px;
-                                                                         }.w-8{
-                                                                            border-width: 8px;
-                                                                              }.w-9{
-                                                                                    border-width: 9px;
-                                                                                 }.w-10{
-                                                                                       border-width: 10px;
-                                                                                    }.w-11{
-                                                                                        border-width: 11px;
-                                                                                       }.w-12{
-                                                                                            border-width:12px;
-                                                                                          }.w-13{
-                                                                                                border-width: 13px;
-                                                                                             }.w-14{
-                                                                                              border-width: 14px;
-                                                                                                 }.w-15{
-                                                                                                    border-width: 15px;
-                                                                                                    }.w-16{
-                                                                                                          border-width: 16px;
-                                                                                                       }.w-17{
-                                                                                                             border-width: 17px;
-                                                                                                          }.w-18{
-                                                                                                                border-width: 18px;
-                                                                                                             }.w-19{
-                                                                                                                   border-width:19px;
-                                                                                                                }.w-20{
-                                                                                                                      border-width: 20px;
-                                                                                                                   }
-                                                       
 
 /* .......border.......... */
-.border{
-   border:2px solid black; 
+.border {
+  border: 2px solid black;
 }
 
-
-.dot {border-style: dotted;}
-.das {border-style: dashed;}
-.sol {border-style: solid;}
-.dou {border-style: double;}
-.gro {border-style: groove;}
-.rid {border-style: ridge;}
-.ins {border-style: inset;}
-.out {border-style: outset;}
-.hid {border-style: hidden;}
-.mix {border-style: dotted dashed solid double;}
+.dot {
+  border-style: dotted;
+}
+.das {
+  border-style: dashed;
+}
+.sol {
+  border-style: solid;
+}
+.dou {
+  border-style: double;
+}
+.gro {
+  border-style: groove;
+}
+.rid {
+  border-style: ridge;
+}
+.ins {
+  border-style: inset;
+}
+.out {
+  border-style: outset;
+}
+.hid {
+  border-style: hidden;
+}
+.mix {
+  border-style: dotted dashed solid double;
+}
 
 /* ..............Color css .............*/
 .aliceblue {
-   color: #f0f8ff;
+  color: #f0f8ff;
 }
 
 .antiquewhite {
-   color: #faebd7;
+  color: #faebd7;
 }
 
 .aqua {
-   color: #00ffff;
+  color: #00ffff;
 }
 
 .aquamarine {
-   color: #7fffd4;
+  color: #7fffd4;
 }
 
 .azure {
-   color: #f0ffff;
+  color: #f0ffff;
 }
 
 .beige {
-   color: #f5f5dc;
+  color: #f5f5dc;
 }
 
 .bisque {
-   color: #ffe4c4;
+  color: #ffe4c4;
 }
 
 .black {
-   color: #000000;
+  color: #000000;
 }
 
 .blanchedalmond {
-   color: #ffebcd;
+  color: #ffebcd;
 }
 
 .blue {
-   color: #0000ff;
+  color: #0000ff;
 }
 
 .blueviolet {
-   color: #8a2be2;
+  color: #8a2be2;
 }
 
 .brown {
-   color: #a52a2a;
+  color: #a52a2a;
 }
 
 .burlywood {
-   color: #deb887;
+  color: #deb887;
 }
 
 .cadetblue {
-   color: #5f9ea0;
+  color: #5f9ea0;
 }
 
 .chartreuse {
-   color: #7fff00;
+  color: #7fff00;
 }
 
 .chocolate {
-   color: #d2691e;
+  color: #d2691e;
 }
 
 .coral {
-   color: #ff7f50;
+  color: #ff7f50;
 }
 
 .cornflowerblue {
-   color: #6495ed;
+  color: #6495ed;
 }
 
 .cornsilk {
-   color: #fff8dc;
+  color: #fff8dc;
 }
 
 .crimson {
-   color: #dc143c;
+  color: #dc143c;
 }
 
 .cyan {
-   color: #00ffff;
+  color: #00ffff;
 }
 
 .darkblue {
-   color: #00008b;
+  color: #00008b;
 }
 
 .darkcyan {
-   color: #008b8b;
+  color: #008b8b;
 }
 
 .darkgoldenrod {
-   color: #b8860b;
+  color: #b8860b;
 }
 
 .darkgray {
-   color: #a9a9a9;
+  color: #a9a9a9;
 }
 
 .darkgrey {
-   color: #a9a9a9;
+  color: #a9a9a9;
 }
 
 .darkgreen {
-   color: #006400;
+  color: #006400;
 }
 
 .darkkhaki {
-   color: #bdb76b;
+  color: #bdb76b;
 }
 
 .darkmagenta {
-   color: #8b008b;
+  color: #8b008b;
 }
 
 .darkolivegreen {
-   color: #556b2f;
+  color: #556b2f;
 }
 
 .darkorange {
-   color: #ff8c00;
+  color: #ff8c00;
 }
 
 .darkorchid {
-   color: #9932cc;
+  color: #9932cc;
 }
 
 .darkred {
-   color: #8b0000;
+  color: #8b0000;
 }
 
 .darksalmon {
-   color: #e9967a;
+  color: #e9967a;
 }
 
 .darkseagreen {
-   color: #8fbc8f;
+  color: #8fbc8f;
 }
 
 .darkslateblue {
-   color: #483d8b;
+  color: #483d8b;
 }
 
 .darkslategray {
-   color: #2f4f4f;
+  color: #2f4f4f;
 }
 
 .darkslategrey {
-   color: #2f4f4f;
+  color: #2f4f4f;
 }
 
 .darkturquoise {
-   color: #00ced1;
+  color: #00ced1;
 }
 
 .darkviolet {
-   color: #9400d3;
+  color: #9400d3;
 }
 
 .deeppink {
-   color: #ff1493;
+  color: #ff1493;
 }
 
 .deepskyblue {
-   color: #00bfff;
+  color: #00bfff;
 }
 
 .dimgray {
-   color: #696969;
+  color: #696969;
 }
 
 .dimgrey {
-   color: #696969;
+  color: #696969;
 }
 
 .dodgerblue {
-   color: #1e90ff;
+  color: #1e90ff;
 }
 
 .firebrick {
-   color: #b22222;
+  color: #b22222;
 }
 
 .floralwhite {
-   color: #fffaf0;
+  color: #fffaf0;
 }
 
 .forestgreen {
-   color: #228b22;
+  color: #228b22;
 }
 
 .fuchsia {
-   color: #ff00ff;
+  color: #ff00ff;
 }
 
 .gainsboro {
-   color: #dcdcdc;
+  color: #dcdcdc;
 }
 
 .ghostwhite {
-   color: #f8f8ff;
+  color: #f8f8ff;
 }
 
 .gold {
-   color: #ffd700;
+  color: #ffd700;
 }
 
 .goldenrod {
-   color: #daa520;
+  color: #daa520;
 }
 
 .gray {
-   color: #808080;
+  color: #808080;
 }
 
 .grey {
-   color: #808080;
+  color: #808080;
 }
 
 .green {
-   color: #008000;
+  color: #008000;
 }
 
 .greenyellow {
-   color: #adff2f;
+  color: #adff2f;
 }
 
 .honeydew {
-   color: #f0fff0;
+  color: #f0fff0;
 }
 
 .hotpink {
-   color: #ff69b4;
+  color: #ff69b4;
 }
 
 .indianred {
-   color: #cd5c5c;
+  color: #cd5c5c;
 }
 
 .indigo {
-   color: #4b0082;
+  color: #4b0082;
 }
 
 .ivory {
-   color: #fffff0;
+  color: #fffff0;
 }
 
 .khaki {
-   color: #f0e68c;
+  color: #f0e68c;
 }
 
 .lavender {
-   color: #e6e6fa;
+  color: #e6e6fa;
 }
 
 .lavenderblush {
-   color: #fff0f5;
+  color: #fff0f5;
 }
 
 .lawngreen {
-   color: #7cfc00;
+  color: #7cfc00;
 }
 
 .lemonchiffon {
-   color: #fffacd;
+  color: #fffacd;
 }
 
 .lightblue {
-   color: #add8e6;
+  color: #add8e6;
 }
 
 .lightcoral {
-   color: #f08080;
+  color: #f08080;
 }
 
 .lightcyan {
-   color: #e0ffff;
+  color: #e0ffff;
 }
 
 .lightgoldenrodyellow {
-   color: #fafad2;
+  color: #fafad2;
 }
 
 .lightgray {
-   color: #d3d3d3;
+  color: #d3d3d3;
 }
 
 .lightgrey {
-   color: #d3d3d3;
+  color: #d3d3d3;
 }
 
 .lightgreen {
-   color: #90ee90;
+  color: #90ee90;
 }
 
 .lightpink {
-   color: #ffb6c1;
+  color: #ffb6c1;
 }
 
 .lightsalmon {
-   color: #ffa07a;
+  color: #ffa07a;
 }
 
 .lightseagreen {
-   color: #20b2aa;
+  color: #20b2aa;
 }
 
 .lightskyblue {
-   color: #87cefa;
+  color: #87cefa;
 }
 
 .lightslategray {
-   color: #778899;
+  color: #778899;
 }
 
 .lightslategrey {
-   color: #778899;
+  color: #778899;
 }
 
 .lightsteelblue {
-   color: #b0c4de;
+  color: #b0c4de;
 }
 
 .lightyellow {
-   color: #ffffe0;
+  color: #ffffe0;
 }
 
 .lime {
-   color: #00ff00;
+  color: #00ff00;
 }
 
 .limegreen {
-   color: #32cd32;
+  color: #32cd32;
 }
 
 .linen {
-   color: #faf0e6;
+  color: #faf0e6;
 }
 
 .magenta {
-   color: #ff00ff;
+  color: #ff00ff;
 }
 
 .maroon {
-   color: #800000;
+  color: #800000;
 }
 
 .mediumaquamarine {
-   color: #66cdaa;
+  color: #66cdaa;
 }
 
 .mediumblue {
-   color: #0000cd;
+  color: #0000cd;
 }
 
 .mediumorchid {
-   color: #ba55d3;
+  color: #ba55d3;
 }
 
 .mediumpurple {
-   color: #9370db;
+  color: #9370db;
 }
 
 .mediumseagreen {
-   color: #3cb371;
+  color: #3cb371;
 }
 
 .mediumslateblue {
-   color: #7b68ee;
+  color: #7b68ee;
 }
 
 .mediumspringgreen {
-   color: #00fa9a;
+  color: #00fa9a;
 }
 
 .mediumturquoise {
-   color: #48d1cc;
+  color: #48d1cc;
 }
 
 .mediumvioletred {
-   color: #c71585;
+  color: #c71585;
 }
 
 .midnightblue {
-   color: #191970;
+  color: #191970;
 }
 
 .mintcream {
-   color: #f5fffa;
+  color: #f5fffa;
 }
 
 .mistyrose {
-   color: #ffe4e1;
+  color: #ffe4e1;
 }
 
 .moccasin {
-   color: #ffe4b5;
+  color: #ffe4b5;
 }
 
 .navajowhite {
-   color: #ffdead;
+  color: #ffdead;
 }
 
 .navy {
-   color: #000080;
+  color: #000080;
 }
 
 .oldlace {
-   color: #fdf5e6;
+  color: #fdf5e6;
 }
 
 .olive {
-   color: #808000;
+  color: #808000;
 }
 
 .olivedrab {
-   color: #6b8e23;
+  color: #6b8e23;
 }
 
 .orange {
-   color: #ffa500;
+  color: #ffa500;
 }
 
 .orangered {
-   color: #ff4500;
+  color: #ff4500;
 }
 
 .orchid {
-   color: #da70d6;
+  color: #da70d6;
 }
 
 .palegoldenrod {
-   color: #eee8aa;
+  color: #eee8aa;
 }
 
 .palegreen {
-   color: #98fb98;
+  color: #98fb98;
 }
 
 .paleturquoise {
-   color: #afeeee;
+  color: #afeeee;
 }
 
 .palevioletred {
-   color: #db7093;
+  color: #db7093;
 }
 
 .papayawhip {
-   color: #ffefd5;
+  color: #ffefd5;
 }
 
 .peachpuff {
-   color: #ffdab9;
+  color: #ffdab9;
 }
 
 .peru {
-   color: #cd853f;
+  color: #cd853f;
 }
 
 .pink {
-   color: #ffc0cb;
+  color: #ffc0cb;
 }
 
 .plum {
-   color: #dda0dd;
+  color: #dda0dd;
 }
 
 .powderblue {
-   color: #b0e0e6;
+  color: #b0e0e6;
 }
 
 .purple {
-   color: #800080;
+  color: #800080;
 }
 
 .rebeccapurple {
-   color: #663399;
+  color: #663399;
 }
 
 .red {
-   color: #ff0000;
+  color: #ff0000;
 }
 
 .rosybrown {
-   color: #bc8f8f;
+  color: #bc8f8f;
 }
 
 .royalblue {
-   color: #4169e1;
+  color: #4169e1;
 }
 
 .saddlebrown {
-   color: #8b4513;
+  color: #8b4513;
 }
 
 .salmon {
-   color: #fa8072;
+  color: #fa8072;
 }
 
 .sandybrown {
-   color: #f4a460;
+  color: #f4a460;
 }
 
 .seagreen {
-   color: #2e8b57;
+  color: #2e8b57;
 }
 
 .seashell {
-   color: #fff5ee;
+  color: #fff5ee;
 }
 
 .sienna {
-   color: #a0522d;
+  color: #a0522d;
 }
 
 .silver {
-   color: #c0c0c0;
+  color: #c0c0c0;
 }
 
 .skyblue {
-   color: #87ceeb;
+  color: #87ceeb;
 }
 
 .slateblue {
-   color: #6a5acd;
+  color: #6a5acd;
 }
 
 .slategray {
-   color: #708090;
+  color: #708090;
 }
 
 .slategrey {
-   color: #708090;
+  color: #708090;
 }
 
 .snow {
-   color: #fffafa;
+  color: #fffafa;
 }
 
 .springgreen {
-   color: #00ff7f;
+  color: #00ff7f;
 }
 
 .steelblue {
-   color: #4682b4;
+  color: #4682b4;
 }
 
 .tan {
-   color: #d2b48c;
+  color: #d2b48c;
 }
 
 .teal {
-   color: #008080;
+  color: #008080;
 }
 
 .thistle {
-   color: #d8bfd8;
+  color: #d8bfd8;
 }
 
 .tomato {
-   color: #ff6347;
+  color: #ff6347;
 }
 
 .turquoise {
-   color: #40e0d0;
+  color: #40e0d0;
 }
 
 .violet {
-   color: #ee82ee;
+  color: #ee82ee;
 }
 
 .wheat {
-   color: #f5deb3;
+  color: #f5deb3;
 }
 
 .white {
-   color: #ffffff;
+  color: #ffffff;
 }
 
 .whitesmoke {
-   color: #f5f5f5;
+  color: #f5f5f5;
 }
 
 .yellow {
-   color: #ffff00;
+  color: #ffff00;
 }
 
 .yellowgreen {
-   color: #9acd32;
+  color: #9acd32;
 }
 
 /* ........148 Background color by all browser...... */
 
 .b-aliceblue {
-   background-color: #f0f8ff;
+  background-color: #f0f8ff;
 }
 
 .b-antiquewhite {
-   background-color: #faebd7;
+  background-color: #faebd7;
 }
 
 .b-aqua {
-   background-color: #00ffff;
+  background-color: #00ffff;
 }
 
 .b-aquamarine {
-   background-color: #7fffd4;
+  background-color: #7fffd4;
 }
 
 .b-azure {
-   background-color: #f0ffff;
+  background-color: #f0ffff;
 }
 
 .b-beige {
-   background-color: #f5f5dc;
+  background-color: #f5f5dc;
 }
 
 .b-bisque {
-   background-color: #ffe4c4;
+  background-color: #ffe4c4;
 }
 
 .b-black {
-   background-color: #000000;
+  background-color: #000000;
 }
 
 .b-blanchedalmond {
-   background-color: #ffebcd;
+  background-color: #ffebcd;
 }
 
 .b-blue {
-   background-color: #0000ff;
+  background-color: #0000ff;
 }
 
 .b-blueviolet {
-   background-color: #8a2be2;
+  background-color: #8a2be2;
 }
 
 .b-brown {
-   background-color: #a52a2a;
+  background-color: #a52a2a;
 }
 
 .b-burlywood {
-   background-color: #deb887;
+  background-color: #deb887;
 }
 
 .b-cadetblue {
-   background-color: #5f9ea0;
+  background-color: #5f9ea0;
 }
 
 .b-chartreuse {
-   background-color: #7fff00;
+  background-color: #7fff00;
 }
 
 .b-chocolate {
-   background-color: #d2691e;
+  background-color: #d2691e;
 }
 
 .b-coral {
-   background-color: #ff7f50;
+  background-color: #ff7f50;
 }
 
 .b-cornflowerblue {
-   background-color: #6495ed;
+  background-color: #6495ed;
 }
 
 .b-cornsilk {
-   background-color: #fff8dc;
+  background-color: #fff8dc;
 }
 
 .b-crimson {
-   background-color: #dc143c;
+  background-color: #dc143c;
 }
 
 .b-cyan {
-   background-color: #00ffff;
+  background-color: #00ffff;
 }
 
 .b-darkblue {
-   background-color: #00008b;
+  background-color: #00008b;
 }
 
 .b-darkcyan {
-   background-color: #008b8b;
+  background-color: #008b8b;
 }
 
 .b-darkgoldenrod {
-   background-color: #b8860b;
+  background-color: #b8860b;
 }
 
 .b-darkgray {
-   background-color: #a9a9a9;
+  background-color: #a9a9a9;
 }
 
 .b-darkgrey {
-   background-color: #a9a9a9;
+  background-color: #a9a9a9;
 }
 
 .b-darkgreen {
-   background-color: #006400;
+  background-color: #006400;
 }
 
 .b-darkkhaki {
-   background-color: #bdb76b;
+  background-color: #bdb76b;
 }
 
 .b-darkmagenta {
-   background-color: #8b008b;
+  background-color: #8b008b;
 }
 
 .b-darkolivegreen {
-   background-color: #556b2f;
+  background-color: #556b2f;
 }
 
 .b-darkorange {
-   background-color: #ff8c00;
+  background-color: #ff8c00;
 }
 
 .b-darkorchid {
-   background-color: #9932cc;
+  background-color: #9932cc;
 }
 
 .b-darkred {
-   background-color: #8b0000;
+  background-color: #8b0000;
 }
 
 .b-darksalmon {
-   background-color: #e9967a;
+  background-color: #e9967a;
 }
 
 .b-darkseagreen {
-   background-color: #8fbc8f;
+  background-color: #8fbc8f;
 }
 
 .b-darkslateblue {
-   background-color: #483d8b;
+  background-color: #483d8b;
 }
 
 .b-darkslategray {
-   background-color: #2f4f4f;
+  background-color: #2f4f4f;
 }
 
 .b-darkslategrey {
-   background-color: #2f4f4f;
+  background-color: #2f4f4f;
 }
 
 .b-darkturquoise {
-   background-color: #00ced1;
+  background-color: #00ced1;
 }
 
 .b-darkviolet {
-   background-color: #9400d3;
+  background-color: #9400d3;
 }
 
 .b-deeppink {
-   background-color: #ff1493;
+  background-color: #ff1493;
 }
 
 .b-deepskyblue {
-   background-color: #00bfff;
+  background-color: #00bfff;
 }
 
 .b-dimgray {
-   background-color: #696969;
+  background-color: #696969;
 }
 
 .b-dimgrey {
-   background-color: #696969;
+  background-color: #696969;
 }
 
 .b-dodgerblue {
-   background-color: #1e90ff;
+  background-color: #1e90ff;
 }
 
 .b-firebrick {
-   background-color: #b22222;
+  background-color: #b22222;
 }
 
 .b-floralwhite {
-   background-color: #fffaf0;
+  background-color: #fffaf0;
 }
 
 .b-forestgreen {
-   background-color: #228b22;
+  background-color: #228b22;
 }
 
 .b-fuchsia {
-   background-color: #ff00ff;
+  background-color: #ff00ff;
 }
 
 .b-gainsboro {
-   background-color: #dcdcdc;
+  background-color: #dcdcdc;
 }
 
 .b-ghostwhite {
-   background-color: #f8f8ff;
+  background-color: #f8f8ff;
 }
 
 .b-gold {
-   background-color: #ffd700;
+  background-color: #ffd700;
 }
 
 .b-goldenrod {
-   background-color: #daa520;
+  background-color: #daa520;
 }
 
 .b-gray {
-   background-color: #808080;
+  background-color: #808080;
 }
 
 .b-grey {
-   background-color: #808080;
+  background-color: #808080;
 }
 
 .b-green {
-   background-color: #008000;
+  background-color: #008000;
 }
 
 .b-greenyellow {
-   background-color: #adff2f;
+  background-color: #adff2f;
 }
 
 .b-honeydew {
-   background-color: #f0fff0;
+  background-color: #f0fff0;
 }
 
 .b-hotpink {
-   background-color: #ff69b4;
+  background-color: #ff69b4;
 }
 
 .b-indianred {
-   background-color: #cd5c5c;
+  background-color: #cd5c5c;
 }
 
 .b-indigo {
-   background-color: #4b0082;
+  background-color: #4b0082;
 }
 
 .b-ivory {
-   background-color: #fffff0;
+  background-color: #fffff0;
 }
 
 .b-khaki {
-   background-color: #f0e68c;
+  background-color: #f0e68c;
 }
 
 .b-lavender {
-   background-color: #e6e6fa;
+  background-color: #e6e6fa;
 }
 
 .b-lavenderblush {
-   background-color: #fff0f5;
+  background-color: #fff0f5;
 }
 
 .b-lawngreen {
-   background-color: #7cfc00;
+  background-color: #7cfc00;
 }
 
 .b-lemonchiffon {
-   background-color: #fffacd;
+  background-color: #fffacd;
 }
 
 .b-lightblue {
-   background-color: #add8e6;
+  background-color: #add8e6;
 }
 
 .b-lightcoral {
-   background-color: #f08080;
+  background-color: #f08080;
 }
 
 .b-lightcyan {
-   background-color: #e0ffff;
+  background-color: #e0ffff;
 }
 
 .b-lightgoldenrodyellow {
-   background-color: #fafad2;
+  background-color: #fafad2;
 }
 
 .b-lightgray {
-   background-color: #d3d3d3;
+  background-color: #d3d3d3;
 }
 
 .b-lightgrey {
-   background-color: #d3d3d3;
+  background-color: #d3d3d3;
 }
 
 .b-lightgreen {
-   background-color: #90ee90;
+  background-color: #90ee90;
 }
 
 .b-lightpink {
-   background-color: #ffb6c1;
+  background-color: #ffb6c1;
 }
 
 .b-lightsalmon {
-   background-color: #ffa07a;
+  background-color: #ffa07a;
 }
 
 .b-lightseagreen {
-   background-color: #20b2aa;
+  background-color: #20b2aa;
 }
 
 .b-lightskyblue {
-   background-color: #87cefa;
+  background-color: #87cefa;
 }
 
 .b-lightslategray {
-   background-color: #778899;
+  background-color: #778899;
 }
 
 .b-lightslategrey {
-   background-color: #778899;
+  background-color: #778899;
 }
 
 .b-lightsteelblue {
-   background-color: #b0c4de;
+  background-color: #b0c4de;
 }
 
 .b-lightyellow {
-   background-color: #ffffe0;
+  background-color: #ffffe0;
 }
 
 .b-lime {
-   background-color: #00ff00;
+  background-color: #00ff00;
 }
 
 .b-limegreen {
-   background-color: #32cd32;
+  background-color: #32cd32;
 }
 
 .b-linen {
-   background-color: #faf0e6;
+  background-color: #faf0e6;
 }
 
 .b-magenta {
-   background-color: #ff00ff;
+  background-color: #ff00ff;
 }
 
 .b-maroon {
-   background-color: #800000;
+  background-color: #800000;
 }
 
 .b-mediumaquamarine {
-   background-color: #66cdaa;
+  background-color: #66cdaa;
 }
 
 .b-mediumblue {
-   background-color: #0000cd;
+  background-color: #0000cd;
 }
 
 .b-mediumorchid {
-   background-color: #ba55d3;
+  background-color: #ba55d3;
 }
 
 .b-mediumpurple {
-   background-color: #9370db;
+  background-color: #9370db;
 }
 
 .b-mediumseagreen {
-   background-color: #3cb371;
+  background-color: #3cb371;
 }
 
 .b-mediumslateblue {
-   background-color: #7b68ee;
+  background-color: #7b68ee;
 }
 
 .b-mediumspringgreen {
-   background-color: #00fa9a;
+  background-color: #00fa9a;
 }
 
 .b-mediumturquoise {
-   background-color: #48d1cc;
+  background-color: #48d1cc;
 }
 
 .b-mediumvioletred {
-   background-color: #c71585;
+  background-color: #c71585;
 }
 
 .b-midnightblue {
-   background-color: #191970;
+  background-color: #191970;
 }
 
 .b-mintcream {
-   background-color: #f5fffa;
+  background-color: #f5fffa;
 }
 
 .b-mistyrose {
-   background-color: #ffe4e1;
+  background-color: #ffe4e1;
 }
 
 .b-moccasin {
-   background-color: #ffe4b5;
+  background-color: #ffe4b5;
 }
 
 .b-navajowhite {
-   background-color: #ffdead;
+  background-color: #ffdead;
 }
 
 .b-navy {
-   background-color: #000080;
+  background-color: #000080;
 }
 
 .b-oldlace {
-   background-color: #fdf5e6;
+  background-color: #fdf5e6;
 }
 
 .b-olive {
-   background-color: #808000;
+  background-color: #808000;
 }
 
 .b-olivedrab {
-   background-color: #6b8e23;
+  background-color: #6b8e23;
 }
 
 .b-orange {
-   background-color: #ffa500;
+  background-color: #ffa500;
 }
 
 .b-orangered {
-   background-color: #ff4500;
+  background-color: #ff4500;
 }
 
 .b-orchid {
-   background-color: #da70d6;
+  background-color: #da70d6;
 }
 
 .b-palegoldenrod {
-   background-color: #eee8aa;
+  background-color: #eee8aa;
 }
 
 .b-palegreen {
-   background-color: #98fb98;
+  background-color: #98fb98;
 }
 
 .b-paleturquoise {
-   background-color: #afeeee;
+  background-color: #afeeee;
 }
 
 .b-palevioletred {
-   background-color: #db7093;
+  background-color: #db7093;
 }
 
 .b-papayawhip {
-   background-color: #ffefd5;
+  background-color: #ffefd5;
 }
 
 .b-peachpuff {
-   background-color: #ffdab9;
+  background-color: #ffdab9;
 }
 
 .b-peru {
-   background-color: #cd853f;
+  background-color: #cd853f;
 }
 
 .b-pink {
-   background-color: #ffc0cb;
+  background-color: #ffc0cb;
 }
 
 .b-plum {
-   background-color: #dda0dd;
+  background-color: #dda0dd;
 }
 
 .b-powderblue {
-   background-color: #b0e0e6;
+  background-color: #b0e0e6;
 }
 
 .b-purple {
-   background-color: #800080;
+  background-color: #800080;
 }
 
 .b-rebeccapurple {
-   background-color: #663399;
+  background-color: #663399;
 }
 
 .b-red {
-   background-color: #ff0000;
+  background-color: #ff0000;
 }
 
 .b-rosybrown {
-   background-color: #bc8f8f;
+  background-color: #bc8f8f;
 }
 
 .b-royalblue {
-   background-color: #4169e1;
+  background-color: #4169e1;
 }
 
 .b-saddlebrown {
-   background-color: #8b4513;
+  background-color: #8b4513;
 }
 
 .b-salmon {
-   background-color: #fa8072;
+  background-color: #fa8072;
 }
 
 .b-sandybrown {
-   background-color: #f4a460;
+  background-color: #f4a460;
 }
 
 .b-seagreen {
-   background-color: #2e8b57;
+  background-color: #2e8b57;
 }
 
 .b-seashell {
-   background-color: #fff5ee;
+  background-color: #fff5ee;
 }
 
 .b-sienna {
-   background-color: #a0522d;
+  background-color: #a0522d;
 }
 
 .b-silver {
-   background-color: #c0c0c0;
+  background-color: #c0c0c0;
 }
 
 .b-skyblue {
-   background-color: #87ceeb;
+  background-color: #87ceeb;
 }
 
 .b-slateblue {
-   background-color: #6a5acd;
+  background-color: #6a5acd;
 }
 
 .b-slategray {
-   background-color: #708090;
+  background-color: #708090;
 }
 
 .b-slategrey {
-   background-color: #708090;
+  background-color: #708090;
 }
 
 .b-snow {
-   background-color: #fffafa;
+  background-color: #fffafa;
 }
 
 .b-springgreen {
-   background-color: #00ff7f;
+  background-color: #00ff7f;
 }
 
 .b-steelblue {
-   background-color: #4682b4;
+  background-color: #4682b4;
 }
 
 .b-tan {
-   background-color: #d2b48c;
+  background-color: #d2b48c;
 }
 
 .b-teal {
-   background-color: #008080;
+  background-color: #008080;
 }
 
 .b-thistle {
-   background-color: #d8bfd8;
+  background-color: #d8bfd8;
 }
 
 .b-tomato {
-   background-color: #ff6347;
+  background-color: #ff6347;
 }
 
 .b-turquoise {
-   background-color: #40e0d0;
+  background-color: #40e0d0;
 }
 
 .b-violet {
-   background-color: #ee82ee;
+  background-color: #ee82ee;
 }
 
 .b-wheat {
-   background-color: #f5deb3;
+  background-color: #f5deb3;
 }
 
 .b-white {
-   background-color: #ffffff;
+  background-color: #ffffff;
 }
 
 .b-whitesmoke {
-   background-color: #f5f5f5;
+  background-color: #f5f5f5;
 }
 
 .b-yellow {
-   background-color: #ffff00;
+  background-color: #ffff00;
 }
 
 .b-yellowgreen {
-   background-color: #9acd32;
+  background-color: #9acd32;
 }
