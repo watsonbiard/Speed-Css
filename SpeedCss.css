@@ -131,9 +131,10 @@ font-family: Comic Sans MS;
 
 
 
-/* set width */
+/* set border-width */
 #bw-1{
-   border-width: 1px;
+   
+   border-width:none;
      }
 #bw-2{
  border-width: 2px;
@@ -178,7 +179,48 @@ font-family: Comic Sans MS;
 
 
 
-
+                                                            .w-1{
+                                                               border-width: 1px;
+                                                               }.w-2{
+                                                        border-width: 2px;
+                                                          }.w-3{
+                                                                border-width: 3px;
+                                                             }.w-4{
+                                                                   border-width: 4px;
+                                                                }.w-5{
+                                                                   border-width: 5px;
+                                                                   }.w-6{
+                                                                        border-width:6px;
+                                                                      }.w-7{
+                                                                            border-width: 7px;
+                                                                         }.w-8{
+                                                                            border-width: 8px;
+                                                                              }.w-9{
+                                                                                    border-width: 9px;
+                                                                                 }.w-10{
+                                                                                       border-width: 10px;
+                                                                                    }.w-11{
+                                                                                        border-width: 11px;
+                                                                                       }.w-12{
+                                                                                            border-width:12px;
+                                                                                          }.w-13{
+                                                                                                border-width: 13px;
+                                                                                             }.w-14{
+                                                                                              border-width: 14px;
+                                                                                                 }.w-15{
+                                                                                                    border-width: 15px;
+                                                                                                    }.w-16{
+                                                                                                          border-width: 16px;
+                                                                                                       }.w-17{
+                                                                                                             border-width: 17px;
+                                                                                                          }.w-18{
+                                                                                                                border-width: 18px;
+                                                                                                             }.w-19{
+                                                                                                                   border-width:19px;
+                                                                                                                }.w-20{
+                                                                                                                      border-width: 20px;
+                                                                                                                   }
+                                                       
 
 /* .......border.......... */
 .border{
